@@ -128,3 +128,35 @@ Lombok is used to reduce boilerplate code for model/data objects, e.g., it can g
 
 </details>
 
+<details>
+    <summary><I>What are the usage of following annotations ? </I></summary>
+	
+* @Data : is a convenient shortcut annotation that bundles the features of @ToString, @EqualsAndHashCode, @Getter / @Setter and @RequiredArgsConstructor together: In other words, @Data generates all the boilerplate that is normally associated with simple POJOs (Plain Old Java Objects) and beans: getters for all fields, setters for all non-final fields, and appropriate toString, equals and hashCode implementations that involve the fields of the class, and a constructor that initializes all final fields, as well as all non-final fields with no initializer that have been marked with @NonNull, in order to ensure the field is never null.
+	https://projectlombok.org/features/Data
+	
+* @Builder : Project Lombok's @Builder is a helpful mechanism for using the Builder pattern without writing boilerplate code. We can apply this annotation to a Class or a method.
+	
+* @AllArgsConstructor : 
+	
+* @NoArgsConstructor : 
+	
+* @Operation : 
+	
+* @Retention : 
+	
+* @Target :
+	
+* @RestController :
+	
+* @RequestMapping :
+	
+* @PostMapping :
+	
+* @RequestBody :
+	
+* @Valid :
+
+* @RequestHeader :
+
+</details>
+
