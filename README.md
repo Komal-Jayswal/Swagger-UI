@@ -114,6 +114,14 @@ If you want the Swagger YAML file for the previously constructed Swagger UI, fol
 
 **Congratulation! On Right side is the same Swagger UI and on the left side is you have your Json Swagger Code for YAML File ready.**
 
+For webflux, use `spring openapi starter ui` dependency
+```
+   <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+      <version>2.0.2</version>
+   </dependency>
+```
 ## FAQ
 
 <details>
@@ -171,4 +179,3 @@ Lombok is used to reduce boilerplate code for model/data objects, e.g., it can g
 ResponseEntity represents the whole HTTP response: status code, headers, and body. As a result, we can use it to fully configure the HTTP response. If we want to use it, we have to return it from the endpoint; Spring takes care of the rest. ResponseEntity is a generic type.
 
 </details>
-
