@@ -161,10 +161,9 @@ Lombok is used to reduce boilerplate code for model/data objects, e.g., it can g
 <br> * @Content : https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Annotations#content
 <br> * @Schema : https://github.com/swagger-api/swagger-core/wiki/Swagger-2.X---Annotations#schema
 <br> 	
-<br> * @Target : 
-<br> * @Retention : 
-<br> * @interface : 
-<br> 	
+	
+<br> * @Retention & @Target : The "@Retention" and "@Target" annotations are standard Java annotations used to specify the retention policy and target element for the custom annotation, respectively. In this case, the retention policy is set to "RUNTIME" and the target element is set to "METHOD", which means that this annotation can be accessed at runtime and is meant to be applied to a method.
+<br> 
 <br> * @RestController :
 <br> * @RequestMapping :
 <br> * @PostMapping :
